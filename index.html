@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nawaf M. Ashraff - Interactive Designer</title>
+    <meta name="description" content="Portfolio of Nawaf M. Ashraff — Interactive Designer specializing in UI/UX, branding, and motion design.">
+    <meta property="og:title" content="Nawaf M. Ashraff - Interactive Designer">
+    <meta property="og:description" content="Interactive Designer specializing in UI/UX, branding, and motion design.">
+    <meta property="og:image" content="Images/logo.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    /* Critical inline styles to prevent FOUC and transition conflicts */
+    [data-magnetic] {
+        transform: translate3d(0, 0, 0);
+        will-change: transform;
+    }
+    
+    /* Ensure smooth rendering */
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+</style>
+    <link rel="icon" type="image/png" href="Images/logo.png">
+    <noscript>
+        <style>.intro-overlay{display:none!important}section{opacity:1!important;transform:none!important}[data-reveal]{opacity:1!important;transform:none!important}</style>
+    </noscript>
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+        <div class="cursor-label"></div>
+    </div>
+    
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="progress-track">
+            <div class="progress-fill"></div>
+        </div>
+        <div class="progress-counter">
+            <span class="current-section">01</span>
+            <span class="separator">/</span>
+            <span class="total-sections">05</span>
+        </div>
+    </div>
+    
+    <!-- Logo -->
+    <div class="logo-container">
+        <img src="Images/logo.png" alt="Nawaf M. Ashraff" class="logo" width="1440" height="1440">
+    </div>
+    
+    <!-- Intro Overlay -->
+    <div class="intro-overlay">
+        <div class="intro-content">
+            <div class="intro-welcome">WELCOME TO</div>
+            <div class="intro-world">MY WORLD</div>
+        </div>
+        <div class="intro-abstract-elements">
+            <div class="abstract-element ae-1"></div>
+            <div class="abstract-element ae-2"></div>
+            <div class="abstract-element ae-3"></div>
+            <div class="abstract-element ae-4"></div>
+            <div class="abstract-element ae-5"></div>
+            <div class="abstract-element ae-6"></div>
+        </div>
+    </div>
+    
+    <!-- Parallax Layers -->
+    <div class="parallax-container">
+        <div class="parallax-layer layer-back">
+            <div class="bg-sphere sphere-1"></div>
+            <div class="bg-sphere sphere-2"></div>
+            <div class="bg-sphere sphere-3"></div>
+            <div class="bg-sphere sphere-4"></div>
+            <div class="bg-sphere sphere-5"></div>
+
+        </div>
+        <div class="parallax-layer layer-mid">
+            <div class="abstract-ui-element ui-1"></div>
+            <div class="abstract-ui-element ui-2"></div>
+            <div class="abstract-ui-element ui-3"></div>
+            <div class="abstract-ui-element ui-4"></div>
+            <div class="abstract-ui-element ui-5"></div>
+
+        </div>
+        <div class="parallax-layer layer-front">
+            <div class="glass-fragment frag-1"></div>
+            <div class="glass-fragment frag-2"></div>
+        </div>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="hero section" data-section="1">
+        <div class="hero-content">
+            <h1 class="hero-name">NAWAF M. ASHRAFF</h1>
+            <h2 class="hero-title">INTERACTIVE DESIGNER</h2>
+            <p class="hero-tagline">
+                Designing things that <span class="respond">respond</span>, not just <span class="exist">exist</span>
+            </p>
+            <p class="hero-skills">Interaction Design · Motion · UI Systems · Creative Development · Coding · Photo & Video Editing</p>
+        </div>
+        
+        <!-- Floating Abstract Elements -->
+        <div class="floating-elements">
+            <div class="stick stick-1"></div>
+            <div class="stick stick-2"></div>
+            <div class="stick stick-3"></div>
+            <div class="stick stick-4"></div>
+            <div class="stick stick-5"></div>
+            <div class="stick stick-6"></div>
+            <div class="stick stick-7"></div>
+            <div class="stick stick-8"></div>
+            <div class="floating-orb orb-1"></div>
+            <div class="floating-orb orb-2"></div>
+            <div class="floating-orb orb-3"></div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">SCROLL</span>
+        </div>
+    </section>
+    
+    <!-- Selected Work Section -->
+    <section class="selected-work section" data-section="2">
+        <h2 class="section-title" data-reveal>SELECTED WORK</h2>
+        
+        <div class="projects-stack">
+            <!-- SAHARA Project -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/sahara-logo.png" alt="SAHARA" class="project-logo" width="1920" height="1920">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">SAHARA™</h3>
+                        <p class="project-oneliner">Open-world game experience</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Creative Lead · Developer · Producer</span>
+                        <span class="project-year">2024–Present</span>
+                    </div>
+                    <p class="project-what">A large-scale open-world game project where I led the creative and technical direction end-to-end.</p>
+                    <p class="project-did">Game design · Systems design · Programming · Story · 3D assets · Editing · Team leadership</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">Game Design</span>
+                        <span class="tag glass-soft">Systems</span>
+                        <span class="tag glass-soft">Development</span>
+                        <span class="tag glass-soft">Leadership</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SnapSteam -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/SNAPSTEAM1.png" alt="SnapSteam" class="project-logo" width="1000" height="1000">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">SnapSteam</h3>
+                        <p class="project-oneliner">Windows SaaS App</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Solo Developer · Designer · Founder</span>
+                        <span class="project-year">2025–Present</span>
+                    </div>
+                    <p class="project-what">A subscription-gated Windows desktop utility backed by serverless infrastructure, Discord-based auth, and a private admin dashboard — built and run solo.</p>
+                    <p class="project-did">App development · Backend architecture · Auth system · Admin dashboard · Subscription design</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">Windows App</span>
+                        <span class="tag glass-soft">SaaS</span>
+                        <span class="tag glass-soft">Full-Stack</span>
+                        <span class="tag glass-soft">Cloudflare</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SMART Project -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/smart-logo.png" alt="SMART" class="project-logo" width="512" height="512">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">SMART</h3>
+                        <p class="project-oneliner">Custom end-to-end business workflow system</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Designer · Developer</span>
+                        <span class="project-year">2025-2026</span>
+                    </div>
+                    <p class="project-what">A complete digital workflow designed and built for a real business, covering structure, interface, and logic.</p>
+                    <p class="project-did">UX/UI design · System architecture · Front-end development · Workflow automation</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">UI Systems</span>
+                        <span class="tag glass-soft">Product Design</span>
+                        <span class="tag glass-soft">Web</span>
+                        <span class="tag glass-soft">Development</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SMARTApp Project -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/smartapp-logo.png" alt="SMARTApp" class="project-logo" width="512" height="512">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">SMARTApp</h3>
+                        <p class="project-oneliner">Virtual reality hub application</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Solo Developer</span>
+                        <span class="project-year">2025-Present</span>
+                    </div>
+                    <p class="project-what">A VR application fully designed and developed independently, focused on interaction and spatial UX.</p>
+                    <p class="project-did">Interaction design · VR logic · Development · APP Building · Publishing · Testing</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">VR</span>
+                        <span class="tag glass-soft">Interaction Design</span>
+                        <span class="tag glass-soft">Prototyping</span>
+                        <span class="tag glass-soft">Development</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Exploratory Divider -->
+            <div class="exploratory-divider" data-reveal>
+                <span class="divider-line"></span>
+                <span class="divider-text">Exploratory</span>
+                <span class="divider-line"></span>
+            </div>
+            
+            <!-- Interface Experiments -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/interface-logo.png" alt="Interface Experiments" class="project-logo" width="1080" height="1080">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">Interface Experiments</h3>
+                        <p class="project-oneliner">Interaction, motion, and interface studies</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Creative Technologist</span>
+                    </div>
+                    <p class="project-what">A collection of focused experiments exploring interaction patterns, motion systems, and responsive UI behavior.</p>
+                    <p class="project-did">Prototyping · Motion Systems · Interaction Behavior · Visual Experiments · Media Studies</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">Concept</span>
+                        <span class="tag glass-soft">Motion</span>
+                        <span class="tag glass-soft">Interaction</span>
+                    </div>
+                </div>
+            </div>
+
+                        <!-- Media -->
+            <div class="project-card glass" data-magnetic data-reveal>
+                <div class="card-glow"></div>
+                <div class="tap-indicator">TAP</div>
+                <div class="project-default">
+                    <div class="project-logo-container">
+                        <img src="Images/Video.png" alt="Visual & Motion Studies" class="project-logo" width="492" height="391">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-name">Visual & Motion Studies</h3>
+                        <p class="project-oneliner">Short-form visual, motion, and media experiments</p>
+                    </div>
+                </div>
+                <div class="project-details">
+                    <div class="details-header">
+                        <span class="project-role">Creative Technologist</span>
+                    </div>
+                    <p class="project-what">A collection of focused visual experiments exploring motion, composition, timing, and visual storytelling.</p>
+                    <p class="project-did">Video editing · Photo manipulation · Motion tests · Visual direction</p>
+                    <div class="project-tags">
+                        <span class="tag glass-soft">Motion</span>
+                        <span class="tag glass-soft">Visual</span>
+                        <span class="tag glass-soft">Media</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Process Section -->
+    <section class="process section" data-section="3">
+        <h2 class="section-title" data-reveal>APPROACH</h2>
+        <div class="process-steps">
+            <div class="process-step glass-soft" data-magnetic data-reveal>
+                <div class="step-glow"></div>
+                <div class="step-number">01</div>
+                <h3 class="step-title">Understand</h3>
+                <p class="step-description">Deep research into user needs, behaviors, and context</p>
+            </div>
+            <div class="process-step glass-soft" data-magnetic data-reveal>
+                <div class="step-glow"></div>
+                <div class="step-number">02</div>
+                <h3 class="step-title">Design</h3>
+                <p class="step-description">Craft interfaces that feel natural and responsive</p>
+            </div>
+            <div class="process-step glass-soft" data-magnetic data-reveal>
+                <div class="step-glow"></div>
+                <div class="step-number">03</div>
+                <h3 class="step-title">Refine</h3>
+                <p class="step-description">Iterate through motion, detail, and lived experience</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Capabilities Section -->
+    <section class="capabilities section" data-section="4">
+        <div class="capabilities-content">
+            <h2 class="section-title" data-reveal>WHAT I DO</h2>
+            <div class="capabilities-grid">
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Interaction Design</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Motion Design</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Photo Editing</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Video Editing</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">UI Systems</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Prototyping</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Creative Coding</span>
+                </div>
+                <div class="capability-item glass-soft" data-magnetic data-reveal>
+                <span class="capability-text">Design Engineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact section" data-section="5">
+        <h2 class="section-title" data-reveal>LET'S CONNECT</h2>
+        <div class="contact-content">
+            <a href="mailto:callmenifo123@gmail.com" class="contact-email glass" data-magnetic data-reveal data-copy="callmenifo123@gmail.com">
+                callmenifo123@gmail.com
+            </a>
+            <a href="tel:+966501291245" class="contact-phone glass-soft" data-magnetic data-reveal data-copy="+966501291245">
+                +966 50 129 1245
+            </a>
+        </div>
+        <div class="contact-footer">
+            <p class="footer-text">© 2026 Nawaf M. Ashraff</p>
+        </div>
+    </section>
+    
+    <script src="script.js" defer></script>
+</body>
+
+</html>
