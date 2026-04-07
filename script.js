@@ -493,6 +493,13 @@ function init() {
         // Touch interactions for tablet/mobile
         if (!isDesktop) {
             initTouchCards();
+            
+            // Show desktop notice after intro
+            const notice = document.querySelector('.desktop-notice');
+            if (notice) {
+                const delay = isMobile ? CONFIG.animations.intro.removeDelay : CONFIG.animations.intro.removeDelay;
+                setTimeout(() => notice.classList.add('visible'), delay);
+            }
         }
         
         // Scroll interactions (all devices)

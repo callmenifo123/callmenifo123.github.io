@@ -1594,16 +1594,19 @@ img {
     z-index: 9999;
     text-align: center;
     font-family: 'Space Mono', monospace;
-    font-size: 0.6rem;
-    letter-spacing: 0.15em;
+    font-size: 0.55rem;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--text-tertiary);
-    background: rgba(10, 10, 10, 0.85);
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    border-bottom: 1px solid var(--glass-border);
-    padding: 8px 20px;
+    color: rgba(212, 175, 55, 0.45);
+    background: rgba(10, 10, 10, 0.9);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.08);
+    padding: 10px 20px;
     pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.8s ease;
+}
+.desktop-notice.visible {
+    opacity: 1;
 }
 
 /* Copy Toast */
